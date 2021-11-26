@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'IM Fell Double Pica SC';
+  src: url('fonts/IMFellDoublePicaSC-Regular.eot'); /* IE9 Compat Modes */
+  src: url('fonts/IMFellDoublePicaSC-Regular.eot?#IM Fell Double Pica SC') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/IMFellDoublePicaSC-Regular.woff') format('woff'), /* Modern Browsers */
+       url('fonts/IMFellDoublePicaSC-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/IMFellDoublePicaSC-Regular.svg#IM Fell Double Pica SC') format('svg'); /* Legacy iOS */
+}
+
+body{
+	font-family: 'IM Fell Double Pica SC', monospace;
+	background-image:url('../img/transparent2.png');
+	background-color:#880000;
+}
+
+header,footer{
+	background-image:url('../img/transparent.png'),linear-gradient(to bottom, #000, #000, #FF0000);
+	color:#FFBBBB;
+}
+
+.bg-1{
+	background-color:#FFFF88;
+}
+
+a,.link-DeL{
+	color:#FFBBBB;
+}
+
+a:hover,.link-DeL:hover{
+	color:#FF0000;
+}
+
+.active{
+	color:#FF0000;
+}
